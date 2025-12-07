@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{% block title %}Travel Website{% endblock %}</title>
+  <title>{% block title %} Baetrip Travels{% endblock %}</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'travel/style.css' %}">
 </head>
@@ -13,7 +13,7 @@
 
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="{% url 'index' %}">🌍 My Travel</a>
+      <a class="brand" href="{% url 'index' %}">🌍 Baetrip Travels</a>
       <nav class="nav">
         <a href="{% url 'index' %}">Home</a>
         <a href="{% url 'about' %}">About</a>
